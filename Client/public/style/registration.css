@@ -1,0 +1,43 @@
+.maincon{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.subcontainer {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 7%;
+
+}
+.formcontainer{
+    display: flex;
+    flex-direction: column;
+}
+.formcontainer h2 {
+    margin-bottom: 25px;
+    text-align: center;
+    text-transform:capitalize;
+}
+.formcontainer input {
+    margin-bottom: 25px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    
+}
+.formcontainer label{
+    text-align: center;
+}
+.formcontainer span{
+    font-weight: 500;
+    text-decoration: inherit;
+    
+}
+.formcontainer button{ 
+   margin-bottom: 15px;
+}
